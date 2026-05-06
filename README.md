@@ -40,7 +40,7 @@ The system is divided into two main domains to ensure maximum flight reliability
 
 ## 📂 Repository Structure
 ```text
-├── hardware/             # Vivado Project, Block Designs, and VHDL Source
-├── firmware/             # C/C++ Source Code (Control Algorithms & Drivers)
+├── hardware/             # Vivado Project: Block Designs, and VHDL Source
+├── firmware/             # C/C++ Source Code
 ├── simulation/           # MATLAB/Simulink Models & HIL Configurations
-└── docs/                 # Full Technical Report & Schematics
+└── docs/                 # Full Technical Report
