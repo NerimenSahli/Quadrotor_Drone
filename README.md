@@ -37,10 +37,3 @@ The system is divided into two main domains to ensure maximum flight reliability
 * **Stability:** Achieved robust attitude stabilization and vibration rejection during test flights.
 * **Precision:** The Kalman Filter successfully mitigated sensor drift, providing a stable 100 Hz attitude estimate.
 * **Payload Capacity:** Validated for a quadrotor mass of approximately **1.2 kg**.
-
-## 📂 Repository Structure
-```text
-├── hardware/             # Vivado Project: Block Designs, and VHDL Source
-├── firmware/             # C/C++ Source Code
-├── simulation/           # MATLAB/Simulink Models & HIL Configurations
-└── docs/                 # Full Technical Report
