@@ -1,0 +1,26 @@
+Pmod JC - I2C + MPU6050 interrupt
+----------------------------------
+JC Pin | FPGA Pin | Signal            | Notes
+JC1    | V15      | IIC_0_scl_io      | SCL, internal pull-up enabled
+JC2    | W15      | IIC_0_sda_io      | SDA, internal pull-up enabled
+JC3    | T11      | mpu6050_int[0]    | INT pin from MPU6050
+JC6    | -        | VCC (3.3V)        |
+JC5    | -        | GND               |
+
+
+Pmod JD - Motor control lines
+------------------------------
+JD Pin | FPGA Pin | Signal
+JD1    | T14      | mot_a
+JD2    | T15      | mot_b
+JD3    | P14      | mot_c
+JD4    | R14      | mot_d
+JD6    | -        | VCC (3.3V)
+JD5    | -        | GND
+
+
+Pmod JA - UART
+---------------
+JA Pin | FPGA Pin | Signal
+JA1    | N15      | uart_rtl_rxd
+JA2    | L14      | uart_rtl_txd
